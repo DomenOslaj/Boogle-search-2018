@@ -64,7 +64,7 @@
   }
 
 .main-title {
-  font-family: Helvetica, Arial;
+  font-family: "Helvetica Neue", Helvetica, Arial;
   font-size: 40px;
   color: #555555;
 }
@@ -122,10 +122,20 @@
 }
 
 .login-wall a {
-  text-decoration: none;
   float: right;
   padding-right: 50px;
   margin-top: 10px;
+}
+
+.content-login a {
+  text-decoration: none;
   color: #4587f6;
   font-weight: bold;
+}
+
+.create-account {
+  margin-top: 25px;
+  display: block;
+  font-size: 20px;
+  font-family: "Helvetica Neue";
 }
