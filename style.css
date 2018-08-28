@@ -57,3 +57,75 @@
 .lang {
   display: inline;
 }
+
+.content-login {
+  text-align: center;
+  margin-top: -30px;
+  }
+
+.main-title {
+  font-family: Helvetica, Arial;
+  font-size: 40px;
+  color: #555555;
+}
+
+.title-block {
+  font-family: Arial;
+  font-size: 20px;
+  color: #555555;
+  margin-top: -80px;
+}
+
+.small-title {
+  margin-top: -10px;
+}
+
+.login-wall {
+  width: 420px;
+  height: 400px;
+  background-color: #f7f7f7;
+  margin: 0 auto;
+  border: 1px solid #f7f7f7;
+  border-radius: 3px;
+  box-shadow: 0px 4px 4px 1px lightgrey;
+}
+
+.login-photo {
+  width: 116px;
+  height: 116px;
+  border-radius: 50%;
+  background-color: lightgrey;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.login-email {
+  margin-top: 30px;
+  font-size: 20px;
+  background-color: #faffba;
+  border: 1px solid #d9d9d9;
+}
+
+.login-wall button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+  background-color: #4587f6;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.login-wall button, .login-email {
+  width: 320px;
+  height: 50px;
+}
+
+.login-wall a {
+  text-decoration: none;
+  float: right;
+  padding-right: 50px;
+  margin-top: 10px;
+  color: #4587f6;
+  font-weight: bold;
+}
